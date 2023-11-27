@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hot Beans Web</title>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+        img {
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+            }
+        </style>
+        <style>
+          body {
+            background-image: url('greybackground.jfif');
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+               }
+        </style>
+        <style> 
+        </style>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+      <button class="w3-bar-item w3-button w3-large"
+      onclick="w3_close()">Close &times;</button>
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="about us.html" class="w3-bar-item w3-button w3-mobile w3-hover-none w3-text-grey w3-hover-text-black">About Us</a>
+      <a href="job info.html" class="w3-bar-item w3-button w3-mobile w3-hover-none w3-text-grey w3-hover-text-black">Job Info</a>
+      <a href="apply.html" class="w3-bar-item w3-button w3-mobile w3-hover-none w3-text-grey w3-hover-text-black">Apply</a>
+      <a href="helpful guides.html" class="w3-bar-item w3-button w3-mobile w3-hover-none w3-text-grey w3-hover-text-black">Helpful Guides</a>
+      
+    </div>
+    
+    <div id="main">
+    
+    <div class="w3-grey">
+      <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+      <div class="w3-container">
+        <h1>My Page</h1>
+      </div>
+    </div>
+    
+    <script>
+    function w3_open() {
+      document.getElementById("main").style.marginLeft = "25%";
+      document.getElementById("mySidebar").style.width = "25%";
+      document.getElementById("mySidebar").style.display = "block";
+      document.getElementById("openNav").style.display = 'none';
+    }
+    function w3_close() {
+      document.getElementById("main").style.marginLeft = "0%";
+      document.getElementById("mySidebar").style.display = "none";
+      document.getElementById("openNav").style.display = "inline-block";
+    }
+    </script>
+<style>
+  h1{color:white;font-size: 300%;}
+  p1{color:white;font-size: 150%}
+</style>
+
+    <h1>About Us</h1>
+      
+      <p1>Welcome to Hot Beans Web, where innovation meets excellence in the digital realm! Established with a passion for pushing the boundaries of online possibilities, we are a dynamic web company committed to crafting compelling digital experiences that resonate with your audience.
+
+        At Hot Beans Web, we believe in the power of seamless connectivity and user-centric design. Our team of seasoned professionals brings together a wealth of expertise in web development, design, and digital strategy. We thrive on transforming ideas into reality, blending creativity with cutting-edge technology to deliver solutions that not only meet but exceed your expectations.
+        
+        What sets us apart is our unwavering commitment to understanding your unique needs. We recognize that every project is distinctive, requiring a tailored approach. Whether you're a startup looking to establish your online presence or an established business aiming to enhance your digital footprint, we've got the skills and insights to guide you through the journey.
+        
+        Transparency and collaboration are at the core of our ethos. We prioritize open communication, ensuring that you are involved every step of the way. Your vision is our inspiration, and we're dedicated to bringing it to life with precision and flair.
+        
+        In an ever-evolving digital landscape, we stay ahead of the curve, embracing the latest technologies and trends to future-proof your online presence. Our commitment to continuous learning and improvement means that you can trust us to deliver solutions that not only meet current industry standards but also anticipate future developments.
+        
+        At Hot Beans Web, we don't just build websites; we craft digital experiences that leave a lasting impression. Join us on a journey where innovation, creativity, and expertise converge to redefine your online presence. Let's transform your ideas into a digital reality that captivates, engages, and inspires. Welcome to the future of the web with Hot Beans Web.</p1>
+</html>  
